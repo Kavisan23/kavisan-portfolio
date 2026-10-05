@@ -164,14 +164,11 @@
   /* ABOUT IMAGE */
 
   #about .section__pic-container {
-    width: 85vw;
-    height: 85vw;
+    width: 100%;
     max-width: 350px;
-    max-height: 350px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     margin: 0 auto 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   #about .about-pic {
@@ -179,9 +176,7 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    margin: 0 auto;
   }
-
 
   /* BACKGROUND / CV */
 
