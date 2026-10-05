@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio of Kavisan Nagarajah, showcasing my background, learning projects and exploration of artificial intelligence and technology."/>
+    <title>Kavisan Nagarajah | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kavisan Nagarajah</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#cv">Background</a></li>
+          <li><a href="#learning-lab">Learning Lab</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kavisan Nagarajah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#cv" onclick="toggleMenu()">Background</a></li>
+          <li><a href="#learning-lab" onclick="toggleMenu()">Learning Lab</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Portrait of Kavisan Nagarajah" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kavisan Nagarajah</h1>
+        <p class="section__text__p2">B.Sc. Business Artificial Intelligence</p>
+        <p class="section__text__intro">
+          I build projects, explore new technologies and use AI to deepen my understanding.
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Kavisan_Nagarajah_web.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socials-container">
+
+          <a
+            href="https://www.linkedin.com/in/kavisan-nagarajah-b4793a1a5/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+          >
+            <img
+              src="./assets/linkedin.png"
+              alt=""
+              class="icon"
+            />
+          </a>
+
+          <a
+            href="https://github.com/Kavisan23"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile"
+          >
+            <img
+              src="./assets/github.png"
+              alt=""
+              class="icon"
+            />
+          </a>
+
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Kavisan Nagarajah outdoors in the mountains"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt=""
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Business Administration</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt=""
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Business AI<br />FHNW, 2026</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I'm Kavi. <br>
+              My background is in business and HR, and over time I moved further into
+              technology through my studies in Business Artificial Intelligence at FHNW.
+              I like learning by building. Many of my projects start simply because I want
+              to understand how something works. AI is part of that process. I use it to
+              explore ideas, ask better questions and work through problems, while making
+              sure I understand the code and decisions behind the result. This website is
+              where I share what I build, learn and explore. Feel free to look around!
+              If something catches your interest, you're always welcome to reach out and connect.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#cv" class="section-arrow" aria-label="Go to Background">
+        <img
+          src="./assets/arrow.png"
+          alt=""
+          class="icon arrow"
+        />
+      </a>
+    </section>
+    <section id="cv">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Background</h1>
+
+      <div class="cv-container">
+
+        <!-- PROFESSIONAL EXPERIENCE -->
+        <div class="cv-group">
+          <h2 class="cv-section-title">Professional Experience</h2>
+
+          <div class="cv-item">
+            <div class="cv-period">2025 – 2026</div>
+            <div class="cv-content">
+              <h3>Co-Founder</h3>
+              <p class="cv-organisation">NeutralNewsCH KLG</p>
+              <ul>
+                <li>Development of AI and data-driven prototypes</li>
+                <li>Concept development and product exploration</li>
+                <li>Business and use-case development</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-period">2022 – 2024</div>
+            <div class="cv-content">
+              <h3>HR Administration</h3>
+              <p class="cv-organisation">Swiss Red Cross, Canton of Bern</p>
+              <ul>
+                <li>Personnel administration across the employee lifecycle</li>
+                <li>Administrative coordination and support for HR processes</li>
+                <li>Support for the implementation of a time tracking system</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cv-item cv-item-compact">
+            <div class="cv-period">2021 – 2022</div>
+            <div class="cv-content">
+              <h3>Security & Reception</h3>
+              <p class="cv-organisation">AMBA Service & Security GmbH</p>
+            </div>
+          </div>
+
+          <div class="cv-item cv-item-compact">
+            <div class="cv-period">2020 – 2021</div>
+            <div class="cv-content">
+              <h3>Part-time Employment</h3>
+              <p class="cv-organisation">Just Eat, Bern</p>
+            </div>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-period">2019 – 2020</div>
+            <div class="cv-content">
+              <h3>Commercial Internship</h3>
+              <p class="cv-organisation">Federal Office of Culture</p>
+              <ul>
+                <li>Processing and reviewing funding applications</li>
+                <li>Administrative support and coordination</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- EDUCATION -->
+        <div class="cv-group">
+          <h2 class="cv-section-title">Education</h2>
+
+          <div class="cv-item">
+            <div class="cv-period">2023 – 2026</div>
+            <div class="cv-content">
+              <h3>B.Sc. Business Artificial Intelligence</h3>
+              <p class="cv-organisation">
+                FHNW School of Business, Olten
+              </p>
+            </div>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-period">2020 – 2023</div>
+            <div class="cv-content">
+              <h3>Business Administration Studies</h3>
+              <p class="cv-organisation">Bern University of Applied Sciences</p>
+              <p class="cv-note">not completed</p>
+            </div>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-period">2016 – 2019</div>
+            <div class="cv-content">
+              <h3>Commercial Education EFZ with Vocational Baccalaureate</h3>
+              <p class="cv-organisation">bwd, Bern</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- LANGUAGES -->
+        <div class="cv-group">
+          <h2 class="cv-section-title">Languages</h2>
+
+          <div class="language-list">
+            <div class="language-item">
+              <span>German</span>
+              <span>Native</span>
+            </div>
+
+            <div class="language-item">
+              <span>Tamil</span>
+              <span>Native</span>
+            </div>
+
+            <div class="language-item">
+              <span>English</span>
+              <span>C1</span>
+            </div>
+
+            <div class="language-item">
+              <span>French</span>
+              <span>B1</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#learning-lab" class="section-arrow" aria-label="Go to Learning Lab section">
+        <img
+          src="./assets/arrow.png"
+          alt=""
+          class="icon arrow"
+        />
+      </a>
+    </section>
+    <section id="learning-lab">
+      <p class="section__text__p1">What I'm exploring</p>
+      <h1 class="title">Learning Lab</h1>
+
+      <div class="lab-container">
+
+        <div class="lab-group">
+          <h2>Algorithms & Data Structures</h2>
+
+          <div class="lab-item">
+            <div>
+              <h3>Sorting Algorithms</h3>
+              <p>
+                Exploring Bubble Sort, Quick Sort and Radix Sort by implementing
+                and visualising them from scratch.
+              </p>
+            </div>
+            <span class="lab-status">Planned</span>
+          </div>
+        </div>
+
+        <div class="lab-group">
+          <h2>Neural Networks</h2>
+
+          <div class="lab-item">
+            <div>
+              <h3>Neural Network from Scratch</h3>
+              <p>
+                Building a small neural network to understand tensors,
+                forward propagation, backpropagation and gradient descent.
+              </p>
+            </div>
+            <span class="lab-status">Planned</span>
+          </div>
+        </div>
+
+        <div class="lab-group">
+          <h2>Reinforcement Learning</h2>
+
+          <div class="lab-item">
+            <div>
+              <h3>
+                <a href="./learning-lab/bachelor-thesis.html" class="lab-link">
+                  Bachelor Thesis: Reinforcement Learning in Algorithmic Trading
+                </a>
+              </h3>
+              <p>
+                Exploring whether reinforcement-learning agents can learn robust
+                trading strategies from historical market data.
+              </p>
+            </div>
+
+            <span class="lab-status">Completed · Grade 6.0</span>
+          </div>
+
+          <div class="lab-item">
+            <div>
+              <h3>RL Algorithms from Scratch</h3>
+              <p>
+                Implementing and testing fundamental reinforcement-learning
+                algorithms step by step.
+              </p>
+            </div>
+            <span class="lab-status">Planned</span>
+          </div>
+        </div>
+
+        <div class="lab-group">
+          <h2>Applied AI</h2>
+
+          <div class="lab-item">
+            <div>
+              <h3>ApplyLoop</h3>
+              <p>
+                Building a human-in-the-loop job application assistant that discovers
+                relevant roles, compares them with my profile and supports the
+                preparation of applications while keeping final decisions with me.
+              </p>
+            </div>
+            <span class="lab-status">In Progress</span>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#contact" class="section-arrow" aria-label="Go to Contact section">
+        <img
+          src="./assets/arrow.png"
+          alt=""
+          class="icon arrow"
+        />
+      </a>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+
+      <p class="contact-text">
+        Feel free to reach out if you'd like to connect, talk about AI or exchange ideas.
+      </p>
+
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt=""
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:kavisan2305@gmail.com">Email</a>
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt=""
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/kavisan-nagarajah-b4793a1a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt=""
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://github.com/Kavisan23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#cv">Background</a></li>
+            <li><a href="#learning-lab">Learning Lab</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2026 Kavisan Nagarajah. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

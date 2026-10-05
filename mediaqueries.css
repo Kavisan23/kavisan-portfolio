@@ -1,0 +1,212 @@
+/* =========================
+   TABLET / SMALL DESKTOP
+   ========================= */
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  #contact {
+    height: fit-content;
+  }
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media screen and (max-width: 1200px) {
+  /* NAVIGATION */
+
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+
+  /* GENERAL SECTIONS */
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  #profile {
+    height: fit-content;
+    margin-bottom: 4rem;
+    transform: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+
+  /* IMAGES */
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  #about .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media screen and (max-width: 600px) {
+  /* CONTACT & FOOTER */
+
+  #contact {
+    height: fit-content;
+    min-height: 40vh;
+  }
+
+  footer {
+    height: fit-content;
+    min-height: 40vh;
+  }
+
+
+  /* PROFILE */
+
+  #profile {
+    height: fit-content;
+    margin-bottom: 4rem;
+  }
+
+  /* FOOTER */
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+
+  /* FLEX WRAPPING */
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .contact-info-container {
+    margin: 0.5rem;
+  }
+
+
+  /* TEXT */
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text-container {
+    text-align: justify;
+  }
+
+
+  /* NAVIGATION */
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+
+  /* PROFILE IMAGE */
+
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+
+  /* ABOUT IMAGE */
+
+  #about .section__pic-container {
+    width: 85vw;
+    height: 85vw;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 0 auto 2rem;
+  }
+
+
+  /* BACKGROUND / CV */
+
+  .cv-container {
+    margin-top: 2rem;
+  }
+
+  .cv-group {
+    margin-bottom: 3rem;
+  }
+
+  .cv-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .cv-period {
+    font-size: 0.85rem;
+  }
+
+  .language-list {
+    max-width: 100%;
+  }
+
+
+  /* LEARNING LAB */
+
+  .lab-container {
+    margin-top: 2rem;
+  }
+
+  .lab-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+
+  /* SECTION ARROWS */
+}
