@@ -36,8 +36,8 @@ function deleteAnalyticsCookies() {
         const name = cookie.split("=")[0].trim();
 
         if (name === "_ga" || name.startsWith("_ga_")) {
-            document.cookie =
-                `${name}=; Max-Age=0; Path=/; SameSite=Lax`;
+            document.cookie = `${name}=; Max-Age=0; Path=/`;
+            document.cookie = `${name}=; Max-Age=0; Path=/; Domain=kavisan.ch`;
         }
     }
 }
